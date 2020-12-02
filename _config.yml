@@ -9,7 +9,7 @@ name: Hawstein Studio
 description: Make something people love.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars2.githubusercontent.com/u/41983968
+avatar: /images/logo_hawstein_studio_1024.png
 
 #
 # Flags below are optional
@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: HawsteinStudio
   instagram:
-  linkedin: HawsteinStudio
+  linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: HawsteinStudio

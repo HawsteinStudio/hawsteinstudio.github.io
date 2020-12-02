@@ -2,17 +2,32 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div>
+  <h2>Who we are</h2>
+  <p>
+    We are a small team who love building software to solve real world problems.
+  </p>
+  <h2>What we believe</h2>
+  <p>
+    Everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it. You can build your own things that other people can use.
+  </p>
+  <p>
+    Once you learn that, you'll want to change life and make it better because it's kind of messed up in a lot of ways.
+  </p>
+  <p style="font-style: italic;">— <a href="https://youtu.be/kYfNvmF0Bqw">Steve Jobs</a></p>
+</div>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<div style="text-align: center;">
+  <h2><span style="border-bottom: 1px solid #bdc3c7;">Products</span></h2>
+</div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<div>
+  <h2>AlgoCasts</h2>
+  <p>
+    TBD
+  </p>
+  <h2>Debob</h2>
+  <p>
+    TBD
+  </p>
 </div>
