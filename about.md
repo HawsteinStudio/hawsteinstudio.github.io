@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+We are a small team who love building software to solve real world problems.
 
-### More Information
+We believe everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it. You can build your own things that other people can use.
 
-A place to include any other types of information that you'd like to include about yourself.
+Once you learn that, you'll want to change life and make it better because it's kind of messed up in a lot of ways.
 
-### Contact me
+## Contact us
 
-[support@hawstein.studio](mailto:support@hawstein.studio)
+[hi@hawstein.studio](mailto:hi@hawstein.studio)

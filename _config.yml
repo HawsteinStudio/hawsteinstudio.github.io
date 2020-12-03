@@ -18,14 +18,14 @@ avatar: /images/logo_hawstein_studio_1024.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: support@hawstein.studio
+  email: hi@hawstein.studio
   facebook:
   flickr:
   github: HawsteinStudio
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: true # just type anything here for a working RSS icon
   twitter: HawsteinStudio
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>

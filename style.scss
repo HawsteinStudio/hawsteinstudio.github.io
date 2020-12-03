@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $openSans;
   color: $darkGray;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $dosis;
   color: $darkerGray;
   font-weight: bold;
 
@@ -66,10 +66,13 @@ h4 {
 
 p {
   margin: 15px 0;
+  a {
+    color: $blue;
+  }
 }
 
 a {
-  color: $blue;
+  color: $darkGray;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -96,6 +99,22 @@ ol ul, ul ol, ul ul, ol ol {
 
 ul ul, ol ul {
   list-style-type: circle;
+}
+
+.list-inline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-inline>li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 em, i {
@@ -200,9 +219,8 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
+  font-family: $dosis;
+  font-size: 30px;
   letter-spacing: 1px;
 }
 
@@ -219,7 +237,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $dosis;
   font-size: 18px;
 
   @include mobile {
@@ -233,7 +251,7 @@ nav {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 1px;
 
     @include mobile {
@@ -267,6 +285,10 @@ nav {
     font-style: italic;
   }
 
+  a {
+    color: $blue;
+  }
+
   .comments {
     margin-top: 10px;
   }
@@ -278,15 +300,26 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  padding: 50px 0 65px;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+  margin: 30px 0 5px;
+}
+
+// an icon indicates that clicking will jump to external site
+.icon-external {
+  position: relative;
+  left: 5px;
+  top: 1px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

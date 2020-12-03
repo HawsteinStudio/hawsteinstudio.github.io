@@ -1,13 +1,114 @@
-{% if site.footer-links.dribbble %}<a href="https://dribbble.com/{{ site.footer-links.dribbble }}"><i class="svg-icon dribbble"></i></a>{% endif %}
-{% if site.footer-links.email %}<a href="mailto:{{ site.footer-links.email }}"><i class="svg-icon email"></i></a>{% endif %}
-{% if site.footer-links.facebook %}<a href="https://www.facebook.com/{{ site.footer-links.facebook }}"><i class="svg-icon facebook"></i></a>{% endif %}
-{% if site.footer-links.flickr %}<a href="https://www.flickr.com/{{ site.footer-links.flickr }}"><i class="svg-icon flickr"></i></a>{% endif %}
-{% if site.footer-links.github %}<a href="https://github.com/{{ site.footer-links.github }}"><i class="svg-icon github"></i></a>{% endif %}
-{% if site.footer-links.instagram %}<a href="https://instagram.com/{{ site.footer-links.instagram }}"><i class="svg-icon instagram"></i></a>{% endif %}
-{% if site.footer-links.linkedin %}<a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i class="svg-icon linkedin"></i></a>{% endif %}
-{% if site.footer-links.pinterest %}<a href="https://www.pinterest.com/{{ site.footer-links.pinterest }}"><i class="svg-icon pinterest"></i></a>{% endif %}
-{% if site.footer-links.rss %}<a href="{{ site.baseurl }}/feed.xml"><i class="svg-icon rss"></i></a>{% endif %}
-{% if site.footer-links.twitter %}<a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i class="svg-icon twitter"></i></a>{% endif %}
-{% if site.footer-links.stackoverflow %}<a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}"><i class="svg-icon stackoverflow"></i></a>{% endif %}
-{% if site.footer-links.youtube %}<a href="https://youtube.com/{{ site.footer-links.youtube }}"><i class="svg-icon youtube"></i></a>{% endif %}
-{% if site.footer-links.googleplus %}<a href="https://plus.google.com/{{ site.footer-links.googleplus }}"><i class="svg-icon googleplus"></i></a>{% endif %}
+<ul class="list-inline text-center">
+
+{% if site.footer-links.rss %}
+  <li>
+    <a target="_blank" href="{{ site.baseurl }}/feed.xml">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+{% endif %}
+{% if site.footer-links.email %}
+  <li>
+    <a target="_blank" href="mailto:{{ site.footer-links.email }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+{% endif %}
+{% if site.footer-links.facebook %}
+  <li>
+    <a target="_blank" href="https://www.facebook.com/{{ site.footer-links.facebook }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+{% endif %}
+{% if site.footer-links.twitter %}
+  <li>
+    <a target="_blank" href="https://www.twitter.com/{{ site.footer-links.twitter }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+{% endif %}
+{% if site.footer-links.youtube %}
+  <li>
+    <a target="_blank" href="https://youtube.com/{{ site.footer-links.youtube }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+{% endif %}
+{% if site.footer-links.flickr %}
+  <li>
+    <a target="_blank" href="https://www.flickr.com/{{ site.footer-links.flickr }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+{% endif %}
+{% if site.footer-links.github %}
+  <li>
+    <a target="_blank" href="https://github.com/{{ site.footer-links.github }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+{% endif %}
+{% if site.footer-links.instagram %}
+  <li>
+    <a target="_blank" href="https://instagram.com/{{ site.footer-links.instagram }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+{% endif %}
+{% if site.footer-links.pinterest %}
+  <li>
+    <a target="_blank" href="https://www.pinterest.com/{{ site.footer-links.pinterest }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+{% endif %}
+{% if site.footer-links.dribbble %}
+  <li>
+    <a target="_blank" href="https://dribbble.com/{{ site.footer-links.dribbble }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+{% endif %}
+{% if site.footer-links.linkedin %}
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+{% endif %}
+
+</ul>
