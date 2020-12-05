@@ -12,4 +12,4 @@ Once you learn that, you'll want to change life and make it better because it's 
 
 ## Contact us
 
-[hi@hawstein.studio](mailto:hi@hawstein.studio)
+[support@hawstein.studio](mailto:support@hawstein.studio)
